@@ -1,0 +1,59 @@
+site_name: 元始道藏
+repo_name: 元始道藏
+repo_url: https://github.com/ChenDaojun/yuanshidaozang
+copyright: Copyright &copy; 2023 - Never 玄微散人
+
+theme:
+  name: material # 設置主題名字
+  language: zh-TW # 設置語言
+  
+  direction: ltr # 設置閲讀方向，這是從左往右
+
+  icon: 
+    logo: material/book # 設置logo
+    repo: fontawesome/brands/github
+
+  features:
+    - navigation.instant # 即时加载
+    - navigation.tracking # 錨跟蹤
+    - navigation.expand # 導航擴展
+    - toc.follow # 錨跟隨
+    - toc.integrate # 導航整合
+    - navigation.top # 返回頂部按鈕
+    - search.suggest # 搜索建議
+    - search.higtlight # 搜索突出顯示
+    - search.share # 搜索共享
+    - header.autohide # 自動隱藏頁眉
+    - navigation.footer # 設置頁脚
+  
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  alternate:
+    - name: 正體中文
+      link: /
+      lang: zh-Hant
+    - name: 简体中文
+      link: /zh/
+      lang: zh
+  
+  homepage: /#/
+
+  analytics:
+    provider: google
+    property: G-YYHQVR4869
+
+plugins: # 插件
+  - search # 搜索
