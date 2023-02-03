@@ -41,11 +41,6 @@ theme:
         name: Switch to light mode
 
 extra:
-  alternate:
-    - name: 正體中文
-      link: /
-      lang: zh-Hant
-  
   homepage: https://chendaojun.github.io/mkdocs-daozang/
 
   analytics:
