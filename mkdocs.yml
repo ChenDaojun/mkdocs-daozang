@@ -49,7 +49,7 @@ extra:
       link: /zh/
       lang: zh
   
-  homepage: /#/
+  homepage: https://chendaojun.github.io/mkdocs-daozang/
 
   analytics:
     provider: google
