@@ -9,8 +9,6 @@ theme:
   
   direction: ltr # 設置閲讀方向，這是從左往右
 
-  font: false # 设置字体
-
   icon: 
     logo: material/book # 設置logo
     repo: fontawesome/brands/github
