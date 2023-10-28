@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "LXGW Wenkai TC";
+    src: "../docs/resources/font/LXGWWenKaiTC-Regular.ttf";
+  }
+  :root {
+    --md-text-font: "LXGW WenKai TC"; 
+  }
+  
